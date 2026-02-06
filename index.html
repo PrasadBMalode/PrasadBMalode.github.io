@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sai Prasad Malode | Portfolio</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "V8VM6EhwyLtDVQnbM",
+      });
+    })();
+  </script>
+
+
+</head>
+
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand " href="#main">.Portfolio</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="fa-solid fa-bars" style="color:white;"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#main">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#TechnicalSummary">Tech Summary</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main / Hero Section -->
+  <section id="main" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center flex-column-reverse flex-lg-row">
+
+        <!-- Text Content -->
+        <div class="col-lg-7 mt-5 mt-lg-0 text-center text-lg-start">
+          <h3 class="mb-3 fs-1">Hey Hi, I'm <br><span style="font-size: 100px; font-weight: 600; color: white;">Sai
+              Prasad Malode</span></h3>
+          <h6 class="typing-loop">Java Full Stack Developer</h6><br>
+
+          <div class="d-flex justify-content-center justify-content-lg-start gap-3 mb-4 flex-wrap">
+            <!-- Icons -->
+            <i class="fa-brands fa-java tech-icon" style="color: #ef5113;" title="Java"></i>
+            <i class="fa-brands fa-html5 tech-icon" style="color: #e52e2e;" title="HTML5"></i>
+            <i class="fa-brands fa-css3-alt tech-icon" style="color: #0960f6;" title="CSS3"></i>
+            <i class="fa-brands fa-js tech-icon" style="color: #dad307;" title="JavaScript"></i>
+            <i class="fa-brands fa-bootstrap tech-icon" style="color: #7c07e8;" title="Bootstrap"></i>
+            <i class="fa-solid fa-database tech-icon" style="color: #043791;" title="Database"></i>
+            <i class="fa-brands fa-github tech-icon" style="color: #90ee90;" title="GitHub"></i>
+          </div>
+
+          <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+            <input type="button" value="View Resume" class="btn-custom btn-primary-custom"
+              onclick="window.open('PrasadBM.pdf', '_blank')">
+            <a href="PrasadBM.pdf" download class="btn-custom btn-outline-custom text-decoration-none">Download
+              Resume</a>
+          </div>
+        </div>
+
+        <!-- Image Content -->
+        <div class="col-lg-5 d-flex justify-content-center mb-4 mb-lg-0">
+          <div class="hero-img-container">
+            <img src="my1stIMG.png" alt="Sai Prasad Malode" class="img-fluid hero-img"
+              style="width: 350px; height: 650px; object-fit: cover;">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h1 class="section-title fs-1">About Me.</h1>
+      <div class="row align-items-center">
+
+        <!-- Image -->
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <div class="info-card">
+            <div class="info-img-wrapper">
+              <img src="my2nd IMG.png" class="info-img" alt="About Me" style="border-radius: 100%;">
+            </div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="col-lg-7 ps-lg-5">
+          <p class="text-primary fw-bold text-uppercase letter-spacing-2 fs-1">Software Developer...</p>
+          <p class="lead text-white fs-4">
+            I am a Full Stack Developer <br> Done with MCA from Akash Global College, Bangalore <br><br> focused on
+            building clean and
+            user-centric web applications.
+          </p><br>
+          <ul class="list-unstyled text-white fs-5 mt-2">
+            <li class="mb-2"><i class="fa-solid fa-check text-success "></i> Hands-on experience in Core Java, JEE
+              (Servlets), Spring MVC, Maven, Apache Tomcat, MySQL.</li><br>
+            <li class="mb-2"><i class="fa-solid fa-check text-success "></i> Worked across the complete development
+              lifecycle including requirement analysis, design, coding, testing, and deployment.</li><br>
+            <li class="mb-2"><i class="fa-solid fa-check text-success "></i> Internship experience strengthened coding
+              standards, debugging skills, and teamwork in collaborative environments.</li><br>
+            <li class="mb-2"><i class="fa-solid fa-check text-success "></i> Passionate about continuous learning,
+              exploring new technologies, and building scalable, high-performance applications.</li><br>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section (Marquee) -->
+  <section id="skills" class="p-0">
+    <h1 class=" text-center  fw-bold">My Skills.</h1>
+    <div class="skills-marquee">
+      <div class="skills-track">
+        <!-- Duplicated content for seamless loop -->
+        <!-- Set 1 -->
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+          <p>C</p>
+        </div>
+        <div class="skill-box"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+          <p>C++</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+            alt="Java">
+          <p>Java</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+            alt="Spring MVC">
+          <p>Spring MVC</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+            alt="HTML">
+          <p>HTML</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            alt="CSS">
+          <p>CSS</p>
+        </div>
+        <div class="skill-box"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+            alt="MySQL">
+          <p>MySQL</p>
+        </div>
+        <div class="skill-box"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ">
+          <p>IntelliJ</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+            alt="VS Code">
+          <p>VS Code</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="GitHub">
+          <p>GitHub</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg"
+            alt="Maven">
+          <p>Maven</p>
+        </div>
+
+        <!-- Set 2 (Duplicate for loop) -->
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+          <p>C</p>
+        </div>
+        <div class="skill-box"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+          <p>C++</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+            alt="Java">
+          <p>Java</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+            alt="Spring MVC">
+          <p>Spring MVC</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+            alt="HTML">
+          <p>HTML</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            alt="CSS">
+          <p>CSS</p>
+        </div>
+        <div class="skill-box"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+            alt="MySQL">
+          <p>MySQL</p>
+        </div>
+        <div class="skill-box"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ">
+          <p>IntelliJ</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+            alt="VS Code">
+          <p>VS Code</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="GitHub">
+          <p>GitHub</p>
+        </div>
+        <div class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg"
+            alt="Maven">
+          <p>Maven</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Summary -->
+  <section id="TechnicalSummary">
+    <div class="container">
+      <h1 class="section-title fs-1 ">Technical Summary.</h1>
+      <div class="tech-summary-box">
+        <h3 class="text-center text-primary fw-bold text-uppercase mb-4 fs-1">
+          <i>Full Stack Development</i>
+        </h3>
+
+        <ul class="text-white fs-4 list-unstyled">
+
+          <!-- Java -->
+          <li class="mb-3">
+            <div class="accordion" id="accordionJava">
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-dark text-white fs-4" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#java">
+                    Proficient in Java
+                  </button>
+                </h2>
+                <div id="java" class="accordion-collapse collapse">
+                  <div class="accordion-body text-white">
+                    <strong class="text-primary">Proficient in Java:</strong> Strong knowledge of object-oriented
+                    programming
+                    concepts including methods, constructors, interfaces, exception handling, collections framework, and
+                    Java 8
+                    features, along with a foundational understanding of basic data structures.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Frontend -->
+          <li class="mb-3">
+            <div class="accordion" id="accordionFrontend">
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-dark text-white fs-4" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#frontend">
+                    Frontend Development
+                  </button>
+                </h2>
+                <div id="frontend" class="accordion-collapse collapse">
+                  <div class="accordion-body text-white">
+                    <strong class="text-primary">Frontend Development:</strong> Experienced in developing responsive and
+                    user-friendly web interfaces using HTML, CSS, JavaScript, and Bootstrap.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Servlets -->
+          <li class="mb-3">
+            <div class="accordion" id="accordionServlets">
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-dark text-white fs-4" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#servlets">
+                    Servlets
+                  </button>
+                </h2>
+                <div id="servlets" class="accordion-collapse collapse">
+                  <div class="accordion-body text-white">
+                    <strong class="text-primary">Servlets:</strong> Strong understanding of Servlet lifecycle and
+                    request–response handling, including session management, form processing, and backend integration.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Spring MVC -->
+          <li class="mb-3">
+            <div class="accordion" id="accordionSpring">
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-dark text-white fs-4" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#spring">
+                    Spring MVC
+                  </button>
+                </h2>
+                <div id="spring" class="accordion-collapse collapse">
+                  <div class="accordion-body text-white">
+                    <strong class="text-primary">Spring MVC:</strong> Hands-on experience with Spring MVC architecture,
+                    Controllers, View Resolvers, and form validation to build structured and maintainable web
+                    applications.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- MySQL -->
+          <li class="mb-3">
+            <div class="accordion" id="accordionMysql">
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-dark text-white fs-4" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#mysql">
+                    MySQL
+                  </button>
+                </h2>
+                <div id="mysql" class="accordion-collapse collapse">
+                  <div class="accordion-body text-white">
+                    <strong class="text-primary">MySQL:</strong> Proficient with strong hands-on experience in DDL, DML,
+                    DQL,
+                    and TCL, including writing optimized queries using joins, subqueries, and aggregate functions to
+                    manage,
+                    analyze, and maintain relational databases efficiently.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Tools -->
+          <li class="mb-3">
+            <div class="accordion" id="accordionTools">
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-dark text-white fs-4" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#tools">
+                    Development Tools
+                  </button>
+                </h2>
+                <div id="tools" class="accordion-collapse collapse">
+                  <div class="accordion-body text-white">
+                    <strong class="text-primary ">Development Tools:</strong> Familiar with industry-standard
+                    development tools
+                    and environments such as IntelliJ IDEA, Visual Studio Code, Maven, Apache Tomcat, MySQL Workbench,
+                    EmailJS,
+                    and GitHub for version control.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <h1 class="section-title fs-1">Experience</h1>
+      <div class="row align-items-center">
+
+        <div class="col-lg-7 mb-4 mb-lg-0">
+          <span class="text-primary fw-bold fs-1 text-uppercase">Internship</span>
+          <h3><i>Intern...</i></h3>
+          <h3>Aug/2025 – Present</h3>
+          <h3 class="mt-2">Java Full Stack Development</h3>
+          <p class="text-white fs-3"> X-WorkZ Software training, Rajajinagar, Bangalore</p>
+          <ul class="list-unstyled text-white mt-3 fs-5">
+            <li class="mb-2 fs-4"><i class="fa-solid fa-angle-right me-2 text-primary "></i> Gained hands-on experience
+              in
+              various software programs, increasing proficiency and expanding technical skill set.</li>
+            <li class="mb-2 fs-4"><i class="fa-solid fa-angle-right me-2 text-primary"></i> Explored new technologies
+              and
+              modern approaches to optimize development processes.</li>
+            <li class="mb-2 fs-4"><i class="fa-solid fa-angle-right me-2 text-primary"></i> Improved coding efficiency
+              through the implementation of automated testing scripts.</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="info-card">
+            <!-- Placeholder for '2517908.jpg' -->
+            <div class="info-img-wrapper">
+              <img src="experience.jpg" class="info-img" alt="Experience">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h1 class="section-title text-center fs-1">My Projects</h1>
+      <div class="row justify-content-center">
+
+        <div class="col-lg-8">
+          <div class="project-card">
+            <!-- Placeholder for 'news image.jpg' -->
+            <img src="news image.jpg" class="project-img" alt="News Application">
+
+            <div class="p-4">
+              <h3 class="mb-3 text-primary fw-bold"><u>NEWS APPLICATION</u></h3>
+              <p class="text-white mb-4 fs-5">
+                A secure News Application using Spring MVC, JSP, and MySQL with features like user authentication, OTP
+                verification, profile management, and real-time NewsAPI integration. Implemented modular architecture,
+                robust validation, and optimized backend workflows to deliver a scalable, user-friendly web platform.
+              </p>
+              <a href="https://github.com/PrasadBMalode/News-Application" target="_blank"
+                class="btn btn-outline-primary btn-sm rounded-pill px-4">
+                <i class="fa-brands fa-github me-2"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- /* Contect me section */ -->
+  <section id="contact">
+    <div class="container py-5">
+      <h1 class="section-title fs-1">Contect Me.</h1>
+      <div class="row shadow contact-card">
+
+        <!-- Left Section -->
+        <div class="col-md-4 contact-info text-black fw-bold fs-4">
+          <h4 class="fw-bold fs-4"><u>Let's get in touch</u></h4>
+          <p>Iam redy for any suggestion or just to have a chat</p>
+          <ul class="list-unstyled mt-3">
+            <li> <i class="fa-solid fa-location-dot"></i> Amruth Gents pg Behind SS Electrics, 1st Stage,5th
+              Phase,60 Feet Road, Shivanagar, Mahaganapathi Nagar, Bengaluru, Karnataka 560010 </li>
+            <li> <i class="fa-solid fa-phone"></i> +91-6360211265 </li>
+            <li> <i class="fa-solid fa-envelope"></i> prasadbm66@gmail.com </li>
+            <li> <i class="fa-solid fa-globe"></i> https://github.com/PrasadBMalode </li>
+          </ul>
+        </div> <!-- Right Section -->
+        <div class=" col-md-8 p-4">
+          <h4 class="mb-4 text-center text-primary fw-bold fs-2">Get in touch</h4>
+          <form id="contactForm" onsubmit="sendMail(); return false;">
+
+            <div class="row mb-3">
+
+              <div class="col-md-6"> <label class="form-label fw-bold fs-5">FULL NAME</label>
+                <input type="text" id="name" class="form-control" placeholder="Name" required>
+              </div>
+
+              <div class="col-md-6"> <label class="form-label fw-bold fs-5">EMAIL ADDRESS</label>
+                <input type="email" id="email" class="form-control" placeholder="Email" required>
+              </div>
+
+            </div>
+            <div class="mb-3 "> <label class="form-label fw-bold fs-5">SUBJECT</label>
+              <input type="text" id="subject" class="form-control" placeholder="Subject">
+            </div>
+
+            <div class="mb-3"> <label class="form-label fw-bold fs-5">MESSAGE</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+            </div>
+
+            <!-- ---------------------------------------------------------------
+                 NEW HTML ADDED FOR CAPTCHA
+                 Placed after the message box as requested
+            --------------------------------------------------------------- -->
+            <div class="mb-3">
+              <label class="form-label fw-bold fs-5">Security Check</label>
+              <div class="captcha-wrapper">
+                <canvas id="captchaCanvas" width="200" height="60" title="Click to refresh"></canvas>
+                <button type="button" id="refreshCaptcha" onclick="generateCaptcha()" title="Refresh Captcha">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+              </div>
+              <input type="text" id="captchaInput" class="form-control mt-2" placeholder="Enter code shown above"
+                required autocomplete="off">
+              <small id="captchaFeedback" class="text-danger mt-1" style="display:none;">Incorrect code. Please try again.
+              </small>
+            </div>
+            <!-- --------------------------------------------------------------- -->
+
+
+
+            <!-- <button type="submit" class="btn btn-success px-4 py-3">Send Message</button> -->
+            <div class="btn-center">
+              <!-- <button type="submit" onclick="sendMail()" class="btn px-4 py-3 send-btn"> -->
+              <button type="submit" class="btn-custom btn-primary-custom w-100">
+                Send Message <i class="fa-solid fa-paper-plane ms-2"></i>
+              </button>
+
+              <!-- Send Message -->
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center fs-4">
+    <p>&copy; 2026 Sai Prasad Malode. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Floating Social Icons -->
+  <div class="social-bar">
+    <a href="https://wa.me/916360211265?text=Hello%20I%20visited%20your%20website" target="_blank" title="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="https://www.instagram.com/direct/t/sai_prasad_bv" target="_blank" title="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://github.com/PrasadBMalode" target="_blank" title="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/prasad-basavaraja-malode-505a0a299/" target="_blank" title="LinkedIn">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </div>
+
+  <!-- Toast Notification (Custom Alert) -->
+  <div class="toast-container">
+    <div id="liveToast" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive"
+      aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          <i class="fa-solid fa-check-circle me-2"></i> Message sent successfully!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+          aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+
+
+
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs@3/dist/email.min.js"></script>
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src="function.js"></script>
+</body>
+
+</html>
